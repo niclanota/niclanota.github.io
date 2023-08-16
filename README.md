@@ -15,14 +15,6 @@ Explore these amazing GitHub Pages features:
 
 Visit the GitHub Pages site [here](https://yourusername.github.io/my-pages-project/) to see lorem ipsum in action.
 
-## Contributing
-
-Interested in contributing? Here's how:
-
-1. Fork the repository.
-2. Make improvements to the lorem ipsum content.
-3. Submit a pull request to share your lorem ipsum brilliance.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,121 @@
+/* -------------------
+   Fonts
+   ------------------- */
+/* Font for headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poiret One', sans-serif;
+}
+
+/* Font for paragraphs */
+p {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* Font for menu links */
+.navbar-nav .nav-link {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* -------------------
+   Container
+   ------------------- */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+/* -------------------
+   Team member cards
+   ------------------- */
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    /* border: 0.5rem solid rgba(0, 0, 0, 0.1); */
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+/* -------------------
+   Go to top button
+   ------------------- */
+
+/* Position and styling */
+.go-top {
+    position: absolute;
+    top: 0;
+    right: 3em;
+    height: 100%;
+}
+
+/* Hide the button when the page first loads */
+.go-top:before {
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+}
+
+/* Fixed position to right bottom of the page */
+.go-top a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--bs-dark);
+    color: var(--bs-light);
+    opacity: 0.3;
+}
+
+/* Icon size and appearance */
+.go-top a i, .go-top a:visited i {
+    font-size: 25px;
+    line-height: inherit;
+}
+
+/* Hover and focus effects */
+.go-top a:hover, .go-top a:focus {
+    opacity: 1;
+}
+
+/* ---------------------
+   Scroll down arrow
+   --------------------- */
+   
+/* Position and alignment */
+.scroll-down {
+    position: relative;
+    text-align: right;
+    right: 7rem;
+}
+
+/* Remove link decoration */
+.scroll-down a {
+    text-decoration: none;
+}

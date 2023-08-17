@@ -15,33 +15,18 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" /> -->
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-        <!-- Styles CSS -->
-        <link href="css/styles.css" rel="stylesheet" />
+    <!-- Styles CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
     <style>
         /* Additional CSS styles can be added here */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Poiret One', sans-serif;
-        }
-
-        p {
-            font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        }
-
-        .navbar-nav .nav-link {
-            font-family: 'Poiret One', sans-serif;
-        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navigation-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Project Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -64,7 +49,29 @@
                 </li>
             </ul>
         </div>
+    </nav> -->
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/navbar-logo.svg" alt="..." style="height:60px;" /></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#outcomes">Outcomes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
+
 
     <section id="about" class="py-5 text-center">
         <i class="fas fa-kiwi-bird"></i>
@@ -73,7 +80,7 @@
         <h1>ABOUT SECTION</h1>
     </section>
 
-    <section id="team" class="py-5">
+    <section id="team" class="page-section bg-light">
         <!-- Team section content goes here -->
         <h1>header 1</h1>
         <h2>header 2</h2>
@@ -83,6 +90,31 @@
         <h5>header 5</h5>
         <h6> header 6</h6>
         <p>paragraph Explore our wide range of resources and tools that can help you</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <a href="https://www.researchgate.net/profile/Nicla-Notarangelo" target="_blank"
+                        rel="noopener noreferrer"><img class="mx-auto rounded-circle" src="assets/img/team/1.jpg"
+                            alt="..." /></a>
+                    <h4>Nicla M. Notarangelo</h4>
+                    <p class="text-muted">Marie Skłodowska-Curie Fellow <br> Principal Investigator </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                    <h4>Charlotte Wirion</h4>
+                    <p>Supervisor</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                    <h4>WEO</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="resources" class="py-5 bg-light">

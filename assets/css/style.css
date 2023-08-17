@@ -39,6 +39,21 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
+  
+
+/* -------------------
+   Navbar 
+   TODO
+   ------------------- */
+   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc800;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    color: #cca000;
+  }
+
+  
 /* -------------------
    Team member cards
    ------------------- */
